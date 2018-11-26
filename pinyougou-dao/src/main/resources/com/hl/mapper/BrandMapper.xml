@@ -7,4 +7,8 @@
         select * from tb_brand
     </select>
 
+    <select id="selectOptionList" resultType="map">
+        select id, name as text from tb_brand
+    </select>
+
 </mapper>
