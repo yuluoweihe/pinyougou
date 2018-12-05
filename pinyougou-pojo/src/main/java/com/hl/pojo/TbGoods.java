@@ -21,11 +21,11 @@ public class TbGoods implements Serializable {
 
     private String auditStatus;//0新商品未申请，1申请中，2审核通过，3审核不通过
 
-    private String isMarketable;
+    private String isMarketable;// （1）上架、（0）下架
 
     private Long brandId;
 
-    private String caption;
+    private String caption;// 标题
 
     private Long category1Id;
 
@@ -33,11 +33,11 @@ public class TbGoods implements Serializable {
 
     private Long category3Id;
 
-    private String smallPic;
+    private String smallPic;// 图片
 
-    private BigDecimal price;
+    private BigDecimal price;// 价格
 
-    private Long typeTemplateId;
+    private Long typeTemplateId;// 类型
 
     private String isEnableSpec;
 

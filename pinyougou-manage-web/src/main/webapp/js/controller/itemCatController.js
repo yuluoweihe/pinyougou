@@ -76,6 +76,10 @@ app.controller("itemCatController", function ($scope, $controller, itemCatServic
     $scope.selectList = function (grade, entity) {
         $scope.grade = grade;
 
+        $scope.parentId = entity.id;//记录父id
+        $scope.parentName = entity.name;
+
+
         switch (grade){
             case 1:
                 $scope.entity_1 = null;

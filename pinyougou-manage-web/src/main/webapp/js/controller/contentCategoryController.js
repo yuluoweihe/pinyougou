@@ -65,4 +65,11 @@ app.controller("contentCategoryController", function ($scope, $controller, conte
 
     };
 
+    // 查询内容分类列表
+    $scope.findContentCategoryList = function(){
+        contentCategoryService.findAll().success(function (response) {
+            $scope.contentCategoryList = response;
+        });
+    };
+
 });
