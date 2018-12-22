@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/itcast-security-cas" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-cart/pinyougou-cart-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-content/pinyougou-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-manage-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-order/pinyougou-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-pay/pinyougou-pay-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-search/pinyougou-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-seckill-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-seckill/pinyougou-seckill-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-sellergoods/pinyougou-sellergoods-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-task-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-user-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-user/pinyougou-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../../pyg/pinyougou/pinyougou-cart/pinyougou-cart-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/fastdfs_client/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-cart/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/itcast-security-cas/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
